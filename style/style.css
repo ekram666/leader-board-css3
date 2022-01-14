@@ -5,28 +5,40 @@
     margin: 0%;
     padding: 0%;
 }
-.nav{
+.nav-header{
     background-color: #562eff;
     display: flex;
     justify-content: space-around ;
-    
     color: #ffffff;
     
 }
 
-.nav-wrap img{
+.nav-wrap img , .nav-info img{
     margin: 10px;
     width: 60px;
     height: 40px;
-    
 
 }
+.nav-wrap {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+}
+.nav-info{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}
+
 .nav-info a{
     
     text-decoration: none;
-    justify-content: center;
-    align-items: center;
+    width: 100px;
     color: white;
+   
    
 }
 
